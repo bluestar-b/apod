@@ -19,7 +19,7 @@ export default async function Home() {
             src={apodData.url || ''}
           />
         </Link>
-      </div>
+      </div> 
 
       <p className="p-4 text-center text-md max-w-lg overflow-hidden overflow-ellipsis lg:max-w-xl">
         {apodData.explanation || ''}
