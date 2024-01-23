@@ -2,6 +2,8 @@ import Link from "next/link";
 import { getAPOD } from "./getAPOD";
 
 
+export const revalidate = 0
+
 export default async function Home() {
   const apodData = await getAPOD();
 
